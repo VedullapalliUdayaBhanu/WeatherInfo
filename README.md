@@ -49,7 +49,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 Once you downloaded the code into VS Code then go to the root directory and try to run
 
-## npm init 
+## npm install
 
 to install the necessary packages
 
