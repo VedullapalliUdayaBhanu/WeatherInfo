@@ -2,7 +2,7 @@ import { createContext , useState, ReactNode} from "react";
 
 
 type infoType = {
-  id?:number
+  id:number
     city : string,
     condition : string,
     degrees : string
@@ -34,6 +34,7 @@ export const DataProvider = ({children}: DataProviderProps) => {
       }])
     
       const [newData, setNewData] = useState<newDataType>({
+        id:0,
         city:"",
         condition : "",
         degrees : ""
