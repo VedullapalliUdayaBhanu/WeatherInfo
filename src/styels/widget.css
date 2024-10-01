@@ -1,0 +1,39 @@
+.widget-sunny{
+    background:url('../../public/Images/sunny.jpg');
+}
+
+.widget-rainy{
+    background:url('../../public/Images/rain2.jpg');
+}
+
+.box{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.leftGrid{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightGrid{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 500px;
+}
+
+.card-action-area{
+    height: 300px;   
+}
+
+.removeWidget{
+    color: white !important;
+    border: 1px solid red !important;
+    background-color: red !important;
+    height: auto
+}

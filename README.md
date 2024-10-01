@@ -44,3 +44,24 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+#### Application Execution ###
+
+Once you downloaded the code into VS Code then go to the root directory and try to run
+
+## npm init 
+
+to install the necessary packages
+
+then run the below command to run the application
+
+## npm start
+
+once you run the application then application will open on browser.
+There you can see one hard coded widget. 
+
+You can add widget by clicking the Add Widget Button. Once you click it, A form will appear, There you need to enter the data to add weather widget.
+
+By default you can add the temperature in Celsius. If you need the temperature in Fahrenheit you can click the switch button to change accordingly
+
+You can see Remove button to remove the widget from UI.
